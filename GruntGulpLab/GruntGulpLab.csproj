@@ -5,11 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="TypeScript\Food.ts" />
+    <None Remove="TypeScript\Tastes.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="TypeScript\Food.ts" />
+    <TypeScriptCompile Include="TypeScript\Tastes.ts" />
   </ItemGroup>
 
 </Project>
