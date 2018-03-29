@@ -4,5 +4,6 @@ var Tastes;
     Tastes[Tastes["Sour"] = 1] = "Sour";
     Tastes[Tastes["Salty"] = 2] = "Salty";
     Tastes[Tastes["Bitter"] = 3] = "Bitter";
+    Tastes[Tastes["Bland"] = 4] = "Bland";
 })(Tastes || (Tastes = {}));
 //# sourceMappingURL=Tastes.js.map

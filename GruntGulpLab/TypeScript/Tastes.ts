@@ -1,1 +1,1 @@
-﻿enum Tastes { Sweet, Sour, Salty, Bitter }
+﻿enum Tastes { Sweet, Sour, Salty, Bitter, Bland }
